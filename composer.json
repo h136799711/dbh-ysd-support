@@ -1,0 +1,40 @@
+{
+    "name": "dbh/supports-bak",
+    "description": "备份用",
+    "keywords": [
+        "support",
+        "array",
+        "collection",
+        "config"
+    ],
+    "support": {
+    },
+    "authors": [
+    ],
+    "require": {
+        "php": ">=8.0",
+        ""
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "files": [
+            "src/Functions.php"
+        ],
+        "psr-4": {
+            "Yansongda\\Supports\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yansongda\\Supports\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "symfony/console": "Use stdout logger",
+        "monolog/monolog": "Use logger"
+    },
+    "scripts": {
+    },
+    "license": "MIT"
+}
